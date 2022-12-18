@@ -36,7 +36,7 @@ export default function Home() {
           </nav>
 
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden md:h-96 md:w-96'>
-            <Image src={deved} layout='fill' objectFit='cover' /> 
+            <Image alt="image" src={deved} layout='fill' objectFit='cover' /> 
           </div>
 
           <div className='text-center p-10'>
@@ -59,13 +59,13 @@ export default function Home() {
           <div>
             <h3 className='text-3xl py-1 text-teal-600 dark:text-teal-400'>SERVICES I OFFER</h3>
             <div className='border-t-2 mx-auto w-20 mt-1 border-gray-800 dark:border-gray-200'></div>
-            <p className='text-md py-5 leading-8 text-gray-800 mx-auto md:text-lg dark:text-gray-200'>Since the beginning of my journey as a freelance developer, I've done remote work for a year</p>
+            <p className='text-md py-5 leading-8 text-gray-800 mx-auto md:text-lg dark:text-gray-200'>Since the beginning of my journey as a freelance developer, I have done remote work for a year</p>
             <p className='text-md py-1 leading-8 text-gray-800 mx-auto md:text-lg dark:text-gray-200'>I offer a wide range of services, including programming and teaching</p>
           </div>
 
           <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-              <Image className='mx-auto' src={design} width={100} height={100}/>
+              <Image alt="image" className='mx-auto' src={design} width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2 '>
                 Creating elegant designs suited for your needs design theory
@@ -77,7 +77,7 @@ export default function Home() {
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-              <Image className='mx-auto' src={code} width={100} height={100}/>
+              <Image alt="image" className='mx-auto' src={code} width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2 '>
                 Creating elegant designs suited for your needs design theory
@@ -89,7 +89,7 @@ export default function Home() {
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-              <Image className='mx-auto' src={consulting} width={100} height={100}/>
+              <Image alt="image" className='mx-auto' src={consulting} width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2 '>
                 Creating elegant designs suited for your needs design theory
@@ -106,28 +106,28 @@ export default function Home() {
           <div className='text-center'>
             <h3 className='text-3xl py-1 text-teal-600 dark:text-teal-400'>PORTFOLIO</h3>
             <div className='border-t-2 mx-auto w-20 mt-1 border-gray-800 dark:border-gray-200'></div>
-            <p className='text-md py-5 leading-8 text-gray-800 mx-auto md:text-lg dark:text-gray-200'>Since the beginning of my journey as a freelance developer, I've done remote work for a year</p>
+            <p className='text-md py-5 leading-8 text-gray-800 mx-auto md:text-lg dark:text-gray-200'>Since the beginning of my journey as a freelance developer, I have done remote work for a year</p>
             <p className='text-md py-1 leading-8 text-gray-800 mx-auto md:text-lg dark:text-gray-200'>I offer a wide range of services, including programming and teaching</p>
           </div>
 
           <div className='flex flex-col gap-10 py-10 px-20 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <Image src={web1} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout='responsive'/>
+              <Image alt="image" src={web1} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout='responsive'/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web2} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout='responsive'/>
+              <Image alt="image" src={web2} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout='responsive'/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web3} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout='responsive'/>
+              <Image alt="image" src={web3} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout='responsive'/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web5} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout='responsive'/>
+              <Image alt="image" src={web5} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout='responsive'/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web6} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout='responsive'/>
+              <Image alt="image" src={web6} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout='responsive'/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web4} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout='responsive'/>
+              <Image alt="image" src={web4} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout='responsive'/>
             </div>
           </div>
           
